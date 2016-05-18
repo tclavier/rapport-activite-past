@@ -16,4 +16,3 @@ clean:
 	-rm -f $(CLEAN)
 
 pdf: $(patsubst %.tex,%.pdf,$(TEXFILES)) 
-	cp *.pdf ../public/
